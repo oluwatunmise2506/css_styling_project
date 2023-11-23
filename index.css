@@ -1,0 +1,23 @@
+.nav_btn{
+    border-radius: 3px
+}
+
+#home_nav{
+    width: 100px;
+    position: absolute;
+
+}
+
+#invoice_nav{
+    width: 100px;
+    position: absolute;
+    left: 135px;
+    
+}
+
+#client_nav{
+    width: 100px;
+    position: absolute;
+    left: 250px;
+}
+
