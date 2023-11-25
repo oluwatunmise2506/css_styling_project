@@ -1,23 +1,102 @@
 .nav_btn{
-    border-radius: 3px
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: solid;
+    
 }
+
+
 
 #home_nav{
     width: 100px;
     position: absolute;
-
+   
 }
 
 #invoice_nav{
     width: 100px;
     position: absolute;
     left: 135px;
-    
+  
 }
 
 #client_nav{
     width: 100px;
     position: absolute;
     left: 250px;
+    
 }
 
+#navbar{
+     padding-bottom: 40px;
+     height : 70px;
+}
+
+#text_div{
+    position: absolute;
+    margin-left: 500px;
+}
+
+#btn_div{
+    position: absolute;
+    left: 1100px;
+}
+
+#main_div{
+    margin-top: 30px;
+    height: 60px;
+}
+
+#text_btn{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+#text1{
+     margin-left: 500px;
+}
+
+
+
+#mainBtn_container{
+    height: 100px;
+    margin-left: 500px;
+    width: 2000px;
+}
+
+
+
+#btn_container1{
+    position: absolute;
+    font-size: small;
+}
+
+
+#btn_container2{
+    position: absolute;
+    left: 740px;
+    font-size: small;
+}
+
+
+
+#btn_container3{
+    position: absolute;
+    left:980px;
+    font-size: small;
+}
+
+.the_btn{
+    width: 220px;
+    height:70px;
+    border: 2px solid grey;
+    border-radius:6px;
+    background-color: white;
+    text-align: left;
+}
+
+.btn_number{
+    font-size: 20px;
+    font-weight:bold ;
+}

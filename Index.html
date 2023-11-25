@@ -7,23 +7,38 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#" style="font-style: italic;font-size: 30px; font-family:serif;">H</a>
+      <!-- navbar section -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="navbar-brand" href="#" style="font-style: italic;font-size: 30px; font-family:serif; padding-top: 35px;">H</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-          <div id="container">
+          <div>
             <div  id="home_nav">
-              <button>Home</button>
+              <button class="nav_btn">Home</button>
             </div>
             <div  id="invoice_nav">
-              <button>Invoices</button>
+              <button class="nav_btn">Invoices</button>
             </div>
             <div  id="client_nav">
-              <button>Clients</button>
+              <button class="nav_btn">Clients</button>
             </div>
           </div>
-      
+      </nav>
+      <!-- End of navbar section -->
+
+      <!-- invoice section1 -->
+          <div id="main_div">
+            <div id="text_div"><h2>Home</h2></div>
+            <div id="btn_div"><button id="text_btn">+ New invoice</button></div>
+          </div>
+       <!--End of invoice section1 -->    
+
+          <span id="text1">Overview</span>
+          <div id="mainBtn_container">
+            <div id="btn_container1"><button class="the_btn">All invoice <br><span class="btn_number">9</span></button></div>
+            <div id="btn_container2"><button class="the_btn">Outstanding invoices<br><span class="btn_number">0</span></button></div>
+            <div id="btn_container3"><button class="the_btn">Revenue <br><span class="btn_number">$0.00</span> </button></div>
+          </div>
 </body>
 </html>
