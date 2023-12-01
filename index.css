@@ -2,101 +2,126 @@
     border-radius: 5px;
     margin-bottom: 30px;
     border: solid;
-    
 }
 
-
-
-#home_nav{
-    width: 100px;
-    position: absolute;
-   
-}
-
-#invoice_nav{
-    width: 100px;
-    position: absolute;
+.invoice_nav{
     left: 135px;
-  
 }
 
-#client_nav{
+.client_nav{
+    left: 250px;
+}
+ .nav_item{
     width: 100px;
     position: absolute;
-    left: 250px;
-    
-}
-
+ }
 #navbar{
      padding-bottom: 40px;
      height : 70px;
 }
 
-#text_div{
+.text_containers{
     position: absolute;
+    
+}
+
+.text_div{
     margin-left: 500px;
 }
 
-#btn_div{
-    position: absolute;
-    left: 1100px;
+.btn_div{
+    
+    left: 1080px;
 }
 
-#main_div{
+.main_div{
     margin-top: 30px;
     height: 60px;
 }
 
-#text_btn{
+
+
+.text_btn{
     background-color: black;
     color: white;
     border-radius: 3px;
 }
 
-#text1{
+.text1{
      margin-left: 500px;
 }
 
 
 
-#mainBtn_container{
-    height: 100px;
+.mainBtn_container{
+    height: 140px;
     margin-left: 500px;
     width: 2000px;
 }
 
-
-
-#btn_container1{
+.inner_containers{
     position: absolute;
     font-size: small;
 }
 
-
-#btn_container2{
-    position: absolute;
+.btn_container2{
     left: 740px;
-    font-size: small;
 }
 
 
-
-#btn_container3{
-    position: absolute;
+.btn_container3{
     left:980px;
-    font-size: small;
 }
 
 .the_btn{
     width: 220px;
-    height:70px;
+    height:100px;
     border: 2px solid grey;
     border-radius:6px;
     background-color: white;
     text-align: left;
 }
 
+.btn_item{
+    
+    font-weight:bolder ;
+}
+.text2{
+    left: 850px;
+}
+
+.text3{
+    left: 970px;
+}
+
+.main_divContainer {
+    height: 100px;
+    margin-left: 970px;
+    width: 2000px;
+    font-size: small;
+    margin-top: 26px;
+}
+
+.inner_btnDivs{
+    width: 240px;
+    height:75px;
+    border: 1px solid grey;
+    border-radius:6px;
+    background-color: white;
+    text-align: left; 
+}
+
+.innerBtn_text{
+    font-size: small;
+    font-weight: normal;
+}
+
+
 .btn_number{
     font-size: 20px;
-    font-weight:bold ;
+    font-weight: bold;
+}
+
+.btnItem_number{
+    padding-left: 25px;
 }
